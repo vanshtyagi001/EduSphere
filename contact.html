@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link rel="stylesheet" href="homestyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  /* Global Styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  /* Navigation Styles */
+  nav {
+    background-color: #4e54c8;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .logo {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  nav ul li {
+    margin-left: 20px;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  nav ul li a:hover {
+    background-color: #8f94fb;
+  }
+  /* Contact Section */
+  .contact-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  .contact-info {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .contact-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .contact-info i {
+    color: #4e54c8;
+    margin-right: 10px;
+  }
+  .contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .contact-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .contact-form textarea {
+    height: 150px;
+  }
+  .contact-form input[type="submit"] {
+    background-color: #4e54c8;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .contact-form input[type="submit"]:hover {
+    background-color: #8f94fb;
+  }
+  /* Map Section */
+  .map-container {
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  /* Social Media Section */
+  .social-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .social-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  .social-container a:hover {
+    color: #4e54c8;
+  }
+</style>
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <a href="main.html" class="navbar-logo"><img src="logo.png" alt="eLearning Platform" class="logo"></a>
+        <ul class="navbar-links">
+          <li><a href="main.html" class="tnavbut">Home</a></li>
+          <li class="tdropdown">
+            <a href="#" class="tnavbut">Courses <i class="fas fa-caret-down"></i></a>
+            <div class="tdropdown-content">
+              <a href="#">Category 1</a>
+              <a href="#">Category 2</a>
+              <a href="#">Category 3</a>
+            </div>
+          </li>
+          <li><a href="about.html" class="tnavbut">About</a></li>
+          <li><a href="contact.html" class="tnavbut">Contact</a></li>
+        </ul>
+        <div class="search-container">
+          <i class="fas fa-user-circle fa-2x profile-icon"></i>
+    
+    
+        </div>
+      </nav>
+
+
+<div class="container">
+    <h1 style="margin-top: 50px;">Contact Us</h1>
+    <div class="contact-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p><i class="fas fa-map-marker-alt"></i> Lovely Professional University, Phagwara, India - 144001</p>
+        <p><i class="fas fa-phone-alt"></i> +91 88650 16512</p>
+        <p><i class="fas fa-envelope"></i> edusphere@gmail.com</p>
+      </div>
+      <!-- Contact Form -->
+
+      <div class="contact-form">
+
+        <h2>Get In Touch</h2>
+        <form method="post" action="https://script.google.com/macros/s/AKfycbwNXmGwCFqQuMIxTR9_KfvuPIfZF8aXX64eBFVgVMdbdkfng2pEdZZ2z2xjH5SN6pKu/exec" name="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <input type="submit" value="Send Message" id="submit">
+        </form>
+      </div>
+    </div>
+    <!-- Map Section -->
+
+
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11472.517822250613!2d75.69818265069723!3d31.253960702173217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1711053948713!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    
+    <!-- Social Media Section -->
+    <div class="social-container">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+  
+  <footer style="background-color: #4e54c8; color: #fff; text-align: center; padding: 20px 0;">
+    <div class="container">
+      <p>&copy; 2024 eLearning Platform. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwNXmGwCFqQuMIxTR9_KfvuPIfZF8aXX64eBFVgVMdbdkfng2pEdZZ2z2xjH5SN6pKu/exec'
+
+const form = document.forms['contact-form']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! your form is submitted successfully." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+  </script>
+  </body>
+  </html>
